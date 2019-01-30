@@ -37,8 +37,40 @@ nav li {
 
 .jumbotron>.container>h2 {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
 }
+
+section {
+  position: justify;
+}
+
+.product {
+  background-color: #eeddcd;
+}
+
+aside>.nav>li>a {
+  background-color: #eeddcd;
+}
+
+footer {
+  background-color: #eeddcd;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.logo, .contact_info, .social {
+  position: justify;
+  padding-top: 20px;
+}
+
+.fab {
+  font-size: 10px;
+}
+
+/* .fab {
+  font-size: 5px;
+} */
+
 
     /* font-family: 'Satisfy', cursive;
 
