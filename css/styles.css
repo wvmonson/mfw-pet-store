@@ -10,6 +10,9 @@ header h1 {
   margin-top: 20px;
 }
 
+.nav {
+  margin-top: 3em;
+}
 
 .nav>li.active>a {
   background-color: #eeddcd;
@@ -32,6 +35,10 @@ nav li {
   height: 450px;
 }
 
+.jumbotron>.container>h2 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
 
     /* font-family: 'Satisfy', cursive;
 
