@@ -40,13 +40,23 @@ nav li {
   font-family: 'Open Sans';
 }
 
-section {
+/* section {
   position: justify;
-}
+} */
+
 
 .product {
   background-color: #eeddcd;
+  border-radius: 5%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 5px solid rgb(252, 252, 252);
 }
+
+/* .product button {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid #000;
+} */
 
 aside>.nav>li>a {
   background-color: #eeddcd;
@@ -54,18 +64,53 @@ aside>.nav>li>a {
 
 footer {
   background-color: #eeddcd;
-  height: 100px;
-  margin-top: 40px;
+  max-height: 100%;
+  padding-top: 20px;
 }
 
 .logo, .contact_info, .social {
   position: justify;
-  padding-top: 20px;
+  padding-left: 35px;
 }
 
-.fab {
-  font-size: 10px;
+.contact_info {
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
 }
+
+
+
+@media (max-width: 768px) {
+
+  .centered {
+    float: none;
+    margin: 0 auto;
+  }
+
+  nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: 5px;
+  }
+
+  .social {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .social i {
+    margin: 20px 10px 0px;
+  }
+
+  aside {
+    margin-bottom: 60px;
+  }
+
+
+}
+
+
+
 
 /* .fab {
   font-size: 5px;
