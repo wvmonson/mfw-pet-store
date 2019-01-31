@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+
+.logo {
+  width: 80px;
+}
+
+header h1 {
+  color: #c9c983;
+  font-family: 'Satisfy', cursive;
+  margin-top: 20px;
+}
+
+.nav {
+  margin-top: 3em;
+}
+
+.nav>li.active>a {
+  background-color: #eeddcd;
+  color: #5c433f;
+}
+
+.nav>li.active>a:hover {
+  background-color: #edf1f4;
+  color: #5c433f
+}
+
+nav li {
+  font-size: 15px;
+}
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.jumbotron>.container>h2 {
+  color: #fff;
+  font-family: 'Open Sans';
+}
+
+/* section {
+  position: justify;
+} */
+
+
+.product {
+  background-color: #eeddcd;
+  border-radius: 5%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 5px solid rgb(252, 252, 252);
+}
+
+/* .product button {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid #000;
+} */
+
+aside>.nav>li>a {
+  background-color: #eeddcd;
+}
+
+footer {
+  background-color: #eeddcd;
+  max-height: 100%;
+  padding-top: 20px;
+}
+
+.logo, .contact_info, .social {
+  position: justify;
+  padding-left: 35px;
+}
+
+.contact_info {
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .centered {
+    float: none;
+    margin: 0 auto;
+  }
+
+  nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: 5px;
+  }
+
+  .social {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .social i {
+    margin: 20px 10px 0px;
+  }
+
+  aside {
+    margin-bottom: 60px;
+  }
+
+
+}
+
+
+
+
+/* .fab {
+  font-size: 5px;
+} */
+
+
+    /* font-family: 'Satisfy', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+ */
